@@ -45,30 +45,4 @@ For the heuristics, an initial MST approach that included the current position a
 
 The food heuristic uses actual maze distances (computed via BFS) rather than Manhattan distances to get a tighter lower bound, which significantly reduces the number of nodes A* needs to expand.
 
----
-
-## AI Use
-
-I used AI assistance to help understand project instructions and debug general concepts. The final code implementation was written, tested, and verified by me. AI was also used to help improve the formatting and presentation of this README after I wrote an initial draft.
-
-
-## Autograder Results
-
-Provisional grades
-==================
-Question q1: 3/3 
-Question q2: 3/3 
-Question q3: 3/3 
-Question q4: 3/3 
-Question q5: 3/3 
-Question q6: 3/3 
-Question q7: 5/4 
-Question q8: 3/3 
-------------------
-Total: 26/25
-
-Your grades are NOT yet registered.  To register your grades, make sure
-to follow your instructor's guidelines to receive credit on your project.
-
-Abdullahs-MacBook-Pro:search-2 abdullahshah$ 
 
