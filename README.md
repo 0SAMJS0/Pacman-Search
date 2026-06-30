@@ -22,20 +22,6 @@ Implements four search algorithms:
 
 All four algorithms use graph search (visited state tracking) to avoid re-expanding already-seen states.
 
-### searchAgents.py
-Implements search problems and heuristics:
-
-- **CornersProblem (Q5)** — State is `(position, visited_corners_tuple)` where the tuple tracks which of the four corners have been reached. Goal is when all four booleans are True.
-
-- **corners_heuristic (Q6)** — Computes the Manhattan distance to the nearest unvisited corner plus the MST cost over all unvisited corners. Consistent and admissible.
-
-- **food_heuristic (Q7)** — Computes the real maze distance to the nearest food plus the MST cost over all remaining food positions using cached BFS distances. Consistent and admissible. Expands ~255 nodes on trickySearch (extra credit tier).
-
-- **AnyFoodSearchProblem (Q8)** — Goal test returns True if there is food at the current position.
-
-- **path_to_closest_dot (Q8)** — Runs BFS on AnyFoodSearchProblem to find the shortest path to the nearest food dot.
-
----
 
 ## Engineering Process
 
