@@ -1,7 +1,6 @@
 # Pacman Search Project
 
-**Course:** CAI 4002 — University of South Florida  
-**Student:** Syed Abdullah M J Shah (U25670034)
+
 
 ---
 
